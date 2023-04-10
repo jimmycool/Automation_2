@@ -20,3 +20,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8000  
 # start server  
 CMD python manage.py  runserver 8080
+EXPOSE 8000  
